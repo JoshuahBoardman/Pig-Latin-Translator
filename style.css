@@ -16,6 +16,15 @@ body {
     align-items: center;
 }
 
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    max-width:  50%;
+}
+
 /* typography */
 
 .title {
@@ -26,15 +35,6 @@ body {
 }
 
 /* layout */
-
-.content-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 550px;
-    max-width:  50%;
-}
 
 .translation-form {
     display: flex;
